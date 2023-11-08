@@ -4,6 +4,7 @@ import threading
 # Configurações do cliente
 HOST ="localhost"
 PORT =12345
+nome =''
 
 
 # Criação de um socket do cliente
@@ -30,10 +31,11 @@ def main():
         client_socket.send(message.encode('utf-8'))
 
 if __name__ == '__main__':
+    nome = input("Digite seu nome aqui")
     main()
 
-# while True:
-#     try message. == True:
-#         print(message)
-#     except Exception as e:
-#         print(e)
+while True:
+    try message. == True:
+        print(message)
+    except Exception as e:
+        print(e)
